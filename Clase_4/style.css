@@ -2,22 +2,91 @@
     margin: 0px;
 }
 header{
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
+    padding: 10px;
 }
 
 header img{
-    margin: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 10px;
     width: 15%;
 }
 
-header h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    color: yellow;
+.info {
+    display: flex;
 }
 
-header h2{
+.info h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    margin-left: 350px;
+}
+
+.info h2{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     color: yellow;
+    margin-left: 350px;
+}
+
+.contacto{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contacto h2{
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contacto article{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.habilidades{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.habilidades h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.habilidades article{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.idiomas{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.idiomas h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.idiomas article{
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+.historial{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.historial article h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.historial article h3{
+    font-family: 'Nunito Sans', sans-serif; 
+    margin-bottom: 7px;
+
+}
+
+.historial article h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
 }
