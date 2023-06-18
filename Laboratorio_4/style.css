@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.flexprincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    height: 15vh;
+    background-color: aqua;
+    display: flex;
+}
+
+.header img{
+    width: 10%;
+    height: 100%;
+    padding: 0px 0px 0px 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 40px 10px 10px 50px;
+    justify-content: space-around;
+}
+
+.footer{
+    display:flex;
+}
+
+.footer div{
+    padding: 10px 0px 0px 10px;
+    background-color: bisque;
+}
+
+.footericons{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footericons img{
+    height: 50%;
+    padding: 10px 20px 0px 0px;
+}
+
+.main{
+    width: 100%;
+    height: 120vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main .cards{
+    width: 100%;
+    height: 70%;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+.main .cards .card1 ,.card2 ,.card3, .card4{
+    background-color: orange;
+}
+
+.card1{
+    background-image: url(./img/Millennium_Falcon_Fathead_TROS.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p{
+    width: 50%;
+    height: 20px;
+    background-color: bisque;
+    padding: 0px 10px 0px 0px;
+}
+
+.card1 button, .card2 button, .card3 button, .card4 button{
+    
+    width: 100px;
+    height: 40px;
+}
+
+.card2{
+    background-image: url(./img/X-wing_Fathead.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.card3{
+    background-image: url(./img/TIE_Interceptor_BF.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.card4{
+    background-image: url(./img/TIEfighter2-Fathead.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main .cards  .card4{
+    background-color: orange;
+    grid-area: 1/ 3 / span 2 / 3 ;
+}
+
+
+.main .gallery{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.main .gallery img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.main .gallery img:hover{
+    transform: scale(1.1)
+}
